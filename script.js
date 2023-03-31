@@ -1,7 +1,7 @@
 var hamburger = document.querySelector(".hamburger");
 var wrapper = document.querySelector(".wrapper");
 hamburger.addEventListener("click", () => {
-  document.querySelector(".wrapper").classList.toggle("hover_collapse");
+  wrapper.classList.toggle("hover_collapse");
   document.querySelector(".content").classList.toggle("contentresize");
 })
 

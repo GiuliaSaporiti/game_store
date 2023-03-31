@@ -1,7 +1,17 @@
-* {
+@media screen  and (min-width: 280) and (max-width: 1280) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+/** {
   margin: 0;
   padding: 0;
-}
+}*/
+
 
 .navbar {
   background: #0B171F;
@@ -18,6 +28,12 @@
   height: 100%;
   background: #0B171F;
 }
+
+.sidebar header {
+  position: relative;
+}
+
+
 
 .sidebar ul {
   margin-top: 20px;
@@ -409,4 +425,12 @@ hr.solid {
 
 .maincard:hover .title {
   transform: translate3d(0%, -20%, -300px);
+}
+
+.img-3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-right: 2px ;
+  
 }
